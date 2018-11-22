@@ -31,6 +31,13 @@ string alter(int index,string m_in)
 
 }
 
+string Generator(string mm,string pp)
+{
+    string rr=Remainder(mm,pp);
+     mm+=rr;
+     return mm;
+}
+
 int main()
 {
     cout << "Hello world!" << endl;
